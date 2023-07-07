@@ -1,3 +1,6 @@
+body{
+    color: rgb(88, 86, 86);
+}
 .background{
     background: rgb(232, 232, 232);
     background-repeat: no-repeat;
@@ -19,6 +22,8 @@
 .data{
     display: flex;
     justify-content: center;
+    position: relative;
+
     
 }
 
@@ -30,6 +35,7 @@ border-radius: 10px;
 box-shadow: 0 1px 15px 1px #7a7a7a;
 display: flex;
 justify-content: space-evenly;
+z-index: 2;
 }
 
 .categories span{
@@ -41,4 +47,14 @@ flex-direction: column;
 }
 .fa{
     font-size: 20px;
+}
+
+.ticket{
+    background-color: white;
+    width: 1200px;
+    height: 300px;
+    position: absolute;
+    top: 56px;
+    z-index: 1;
+    border-radius: 10px;
 }
