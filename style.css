@@ -1,0 +1,41 @@
+.background{
+    background: rgb(232, 232, 232);
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, #051322, #15457c);
+    background-size: 100% 300px;
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+ width: 1200px;
+}
+
+.logo{
+    height: 36px;
+    width: 113px;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.categories{
+background-color: white;
+width: 950px;
+margin-top: 15px;
+border-radius: 10px;
+box-shadow: 0 1px 15px 1px #7a7a7a;
+display: flex;
+justify-content: space-evenly;
+}
+
+.categories span{
+font-size: 14px;
+padding: 20px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
